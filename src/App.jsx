@@ -1,4 +1,4 @@
-import {Button, Nav, Menu, Form, Row, Col, Card, Container} from "react-bootstrap"
+import { Form, Row, Col, Card, Container} from "react-bootstrap"
 
 function App() {
 
@@ -40,19 +40,20 @@ function App() {
       </Form>
 
     </Container>
-    {/* 
-        m - margin -> [e: end, s: start, t: top, b: bottom, x: eixo x, y: eixo y] + tamanho (1 a 5)
-        p - padding -> [e: end, s: start, t: top, b: bottom, x: eixo x, y: eixo y] + tamanho (1 a 5)
-      
-      <div className="shadow">
-      <Button className="m-5 shadow" variant="primary">enviar</Button>
-        <Button className="p-2" variant="secondary">enviar</Button>
-        <Button className="mt-2" variant="success">enviar</Button>
-        <Button className="m-2" variant="light">enviar</Button>
-        <Button variant="dark">enviar</Button>
-      </div>
-      */}
+    
   )
 }
 
 export default App
+
+ 
+       // m - margin -> [e: end, s: start, t: top, b: bottom, x: eixo x, y: eixo y] + tamanho (1 a 5)
+       // p - padding -> [e: end, s: start, t: top, b: bottom, x: eixo x, y: eixo y] + tamanho (1 a 5)
+      
+      //<div className="shadow">
+      //<Button className="m-5 shadow" variant="primary">enviar</Button>
+      //  <Button className="p-2" variant="secondary">enviar</Button>
+      //  <Button className="mt-2" variant="success">enviar</Button>
+      //  <Button className="m-2" variant="light">enviar</Button>
+      //  <Button variant="dark">enviar</Button>
+      //</div>
